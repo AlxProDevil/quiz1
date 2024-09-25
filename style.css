@@ -43,27 +43,26 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: antiquewhite;
+    opacity: 0.95;
     padding: 4% 10%;
     align-content: center;
 }
 
 #welcome h1 {
     margin-left: 25%;
+    font-size: 50px;
 }
 
 #welcome img {
     position: absolute;
     right: 20%;
+    width: 30%;
     transform: translateY(-50%);
 }
 
 #picture {
     width: 50%;
     float: left;
-}
-
-#picture h1 {
-    display: flex;
 }
 
 #picture img {
@@ -73,11 +72,38 @@ body {
 }
 
 #description {
-    width: 30%;
+    width: 50%;
     float: left;
     text-align: justify;
     position: relative;
-    top: 50%;
+    top: 45%;
+    transform: translateY(-50%);
+}
+
+#ht_desc {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+#f_desc {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+#t_desc {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    top: 35%;
     transform: translateY(-50%);
 }
 
