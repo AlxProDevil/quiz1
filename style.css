@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+.top{
+    background: #47A992;
+    color: #0a0404;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.top a{
+    display: inline-flex;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0a0404;
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    background-image: url(image/telaga.jpg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.content{
+    height: 86%;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+    padding: 4% 10%;
+    align-content: center;
+}
+
+#welcome h1 {
+    margin-left: 25%;
+}
+
+#welcome img {
+    position: absolute;
+    right: 20%;
+    transform: translateY(-50%);
+}
+
+#picture {
+    width: 50%;
+    float: left;
+}
+
+#picture h1 {
+    display: flex;
+}
+
+#picture img {
+    display: inline-flex;
+    max-width: 70%;
+    max-height: 100%
+}
+
+#description {
+    width: 30%;
+    float: left;
+    text-align: justify;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    background-color: #47A992;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
